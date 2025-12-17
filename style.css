@@ -1,0 +1,129 @@
+/* Global background */
+* {
+    font-family: Arial, sans-serif;
+}
+
+#bg-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100%; 
+    min-height: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
+
+/* TPP logo */
+.logo {
+    height: 50px;
+    width: 50px;
+    background-image: url("logo.png");
+    background-size: cover;
+}
+
+/* Remove underline & color from all links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Main layout */
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+/* Profile container */
+.cls4 {
+    z-index: 1;
+    position: relative;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+/* Heading */
+h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 45px;
+    margin: 0 0 14px 0;
+}
+
+/* Common styles for all boxes */
+a.box1, a.box2, a.box3{
+    display: inline-block;
+    border-radius: 30px 2px 30px;
+    margin: 25px;
+    text-align: center;
+    color: #878181;
+    background-color: #1c1b1b;
+    height: 190px;
+    width: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease, background-color 0.4s ease, color 0.4s ease;
+}
+
+/* Individual background images */
+a.box1 {
+    background-image: url("profile1.jpeg");
+}
+
+a.box2 {
+    background-image: url("profile2.jpeg");
+}
+
+a.box3 {
+    background-image: url("profile3.png");
+}
+
+
+/* Paragraph inside boxes */
+a.box1 p, a.box2 p, a.box3 p {
+    position: relative;
+    top: 190px;
+    font-weight: bold;
+    font-size: 23px;
+    border: 1.4px solid rgb(58, 53, 53);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.add p {
+    position: relative;
+    top: 75px;
+}
+
+/* Hover effect */
+a.box1:hover, a.box2:hover, a.box3:hover {
+    color: #ffffff;
+    transform: scale(1.05);
+    cursor: pointer;
+    background-color: #b9b5b5;
+
+    box-shadow: 10px 8px 30px rgba(255, 255, 255, 0.112);
+}
+
+/* Add profile button
+.add {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    margin-left: 22px;
+    text-align: center;
+    background-color: #1c1b1b;
+    color: #878181;
+    background-image: url("add.png");
+    background-size: 100px;
+    background-position: center;
+}
+
+
+/* Hover effect for Add button
+.add:hover {
+    border: 2px solid #b9b5b5;
+    color: #ffffff;
+    cursor: pointer;
+} */
