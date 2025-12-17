@@ -1,0 +1,165 @@
+*{
+    font-family: Arial, sans-serif;
+    margin: 0px;
+}
+
+/* background video */
+#bg-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100%; 
+    min-height: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
+
+/* Remove underline & color from all links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* TPP logo */
+.logo {
+    height: 60px;
+    width: 60px;
+    background-image: url("logo.png");
+    background-size: cover;
+}
+
+
+
+
+/* navigation bar */
+.nav{
+    height: 45px;
+    width: 580px;
+    margin: -10px 0px 30px 930px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(104, 113, 141, 0.341);
+    border-radius: 3px 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    position: static;
+}
+.nav a{
+    color: rgb(218, 235, 245);
+    font-weight: 560;
+    font-size: 21px;
+}
+.nav a:hover{
+    text-decoration: solid underline rgb(208, 231, 244);
+    transition: transform 0.2s ease;
+    transform: scale(1.06);
+}
+
+
+
+
+/* projects section */
+.heading{
+    font-size: 45px;
+    color: rgb(221, 244, 241);
+    margin-bottom: 50px;
+    display: inline-block;
+    padding-bottom: 8px;
+    border-bottom: 2.5px solid rgba(221, 244, 241, 0.7);
+    text-shadow: 0 0 8px rgba(177, 153, 121, 0.5);
+}
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.project-card {
+    height: 330px;
+    background: rgba(104,113,141,0.25);
+    padding: 15px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    transition: transform .25s ease;
+}
+.project-card:hover {
+    transform: scale(1.04);
+}
+.project-card img {
+    width: 100%;
+    height: 240px;
+    border-radius: 8px;
+    /* object-fit: cover; */
+    margin-bottom: 10px;
+}
+.ins_heading {
+    display: block;
+    margin: 8px 0;
+    font-size: 25px;
+    font-weight: bold;
+}
+.project-card p {
+    font-size: 15px;
+    color: #e2dede;
+}
+.project-card a {
+    text-decoration: none;
+    color: #eafbff;
+    transition: color 0.2s ease;
+    text-decoration: 1.5px underline;
+}
+.project-card a:hover {
+    color: #9292f7;
+}
+
+
+
+
+/* footer */
+.footer {
+    background: #011136ee;
+    color: #e5e5e5;
+    margin-top: 95px;
+    padding: 30px 0 0 0;
+    font-family: Arial, sans-serif;
+}
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-box {
+    width: 250px;
+    margin-bottom: 30px;
+}
+.footer-box h3 {
+    color: #fff;
+    font-size: 19px;
+    margin-bottom: 15px;
+    text-decoration: solid underline rgba(255, 255, 255, 0.6);
+}
+.footer-box a {
+    display: block;
+    text-decoration: none;
+    color: #e5e5e5;
+    line-height: 25px;
+    transition: 0.2s;
+}
+.footer-box a:hover {
+    color: #9b59b6;
+}
+.footer-box p {
+    line-height: 1.4;
+    color: #ccc;
+}
+.footer-bottom {
+    text-align: center;
+    margin-top: 35px;
+    font-size: 14px;
+    opacity: 0.6;
+    padding-bottom: 10px;
+}
