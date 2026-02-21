@@ -10,7 +10,7 @@ This project contains multiple sections with a consistent design theme and backg
 
 The portfolio consists of 4 main sections:
 
-### 1️⃣ Home Page
+### 1️⃣ Landing Page
 - `landing.html`
 - `landing.css`
 - Background video
