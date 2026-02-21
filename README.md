@@ -10,20 +10,20 @@ This project contains multiple sections with a consistent design theme and backg
 
 The portfolio consists of 4 main sections:
 
-### 1️⃣ Landing Page
-- `landing.html`
-- `landing.css`
-- Background video
-- `pic1.png`
-- `pic2.png`
-- `pic3.png`
-- `TPP.png` (Logo)
+### 1️⃣ Home Page
+- `index.html`
+- `style.css`
+- large neon.mp4(Bg-video)
+- `logo.png` (TPP's Logo)
+- `profile1.png`
+- `profile2.png`
+- `profile3.png`
 
 Features:
 - Full-screen background video
 - Landing introduction section
 - Clean and modern UI
-- 3 Section inside: About, Project and Certificate
+- Professional profile section: About, Project and Certificate
 
 ---
 
@@ -39,7 +39,6 @@ Features:
 Features:
 - Personal introduction
 - Social media links
-- Professional profile section
 
 ---
 
