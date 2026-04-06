@@ -4,7 +4,7 @@ A personal portfolio website built using **HTML** and **CSS** to showcase my pro
 
 This project contains multiple sections with a consistent design theme and background video integration.
 
-Files are kept here in a structured manner, to run the code you must keep all the files at one folder!!!
+NOTE: Files are kept in a structured manner, to run this smoothly you must keep all the files at one folder!!!
 ---
 
 ## 📂 Project Structure
